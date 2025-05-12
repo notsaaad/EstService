@@ -83,6 +83,9 @@ section{
 h1,h2,h3,h4,h5,h6{
   color: var(--primary-color);
 }
+.black{
+  color: black !important;
+}
 
 .main-btn{
   color: white;
@@ -143,6 +146,9 @@ h1,h2,h3,h4,h5,h6{
   background-color: var(--white-color);
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 
 .single-service .serv-title{
@@ -185,3 +191,29 @@ footer{
   padding-top: 5px;
 }
 /* ========================================== Endd Footer ======================================= */
+
+
+label{
+  margin: 5px 0 ;
+}
+
+input,
+select{
+  width: 100%;
+  height: 52px;
+  border: 1px solid;
+  border-color: var(--bg-btn-dark-gray-color);
+  outline: none;
+  border-radius: 8px;
+  color: var(--sec-color);
+  padding: 10px;
+}
+
+.arch-btn{
+  color: black;
+  padding: 5px;
+  border: 1px solid var(--bg-btn-dark-gray-color);
+  width: fit-content;
+  border-radius: 8px;
+  font-weight: bold;
+}

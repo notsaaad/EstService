@@ -217,3 +217,33 @@ select{
   border-radius: 8px;
   font-weight: bold;
 }
+
+
+.section-gap{
+  margin: 50px 0;
+}
+.About-us h2{
+  color: black;
+}
+
+section.About-us{
+  margin-top: 0;
+}
+.About-us p{
+  line-height: 1.6;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.table th, .table td {
+  vertical-align: middle;
+}
+
+
+.thank-you-page h2 {
+  font-size: 32px;
+}
+
+.thank-you-page p.lead {
+  font-size: 18px;
+}

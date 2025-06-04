@@ -4,11 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="shortcut icon" href="images/Logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="css/master.css">
   <link rel="stylesheet" href="css/home.css">
-  <title>Est Servic | Services</title>
+  <title>Est Servic | About Us</title>
 </head>
   <body>
 
@@ -39,32 +39,67 @@
     </div>
     <!-- ================================= End Header ======================== -->
 
+    <div class="container my-5">
+      <div class="row">
 
-    <div class="container">
-      <h2 class="text-center m-4"> تسجيل دخول</h2>
-      <div class="row g-2">
-        <div class="col-sm-12 col-md-6">
-          <form action="" class="p-3">
-
-            <div class="m-2">
-              <label for="">البريد الاكتروني</label>
-              <input type="text" placeholder="ادخل البريد الاكتروني الخاص بك">
-            </div>
-
-
-            <div class="m-2">
-              <label for="">كلمة المرور</label>
-              <input type="password" placeholder="كلمة المرور">
-            </div>
-            <div class="d-flex justify-content-center mt-3">
-              <input type="submit" style="width: fit-content; padding: 0 20px;" class="btn btn-primary" value="تسجيل دخول">
-            </div>
-          </form>
-
-          <p  class="mt-4 text-center">ليس لديك حساب ؟ <a href="#">انشاء حساب</a></p>
+        <div class="col-md-3">
+          <div class="border rounded p-3 bg-light">
+            <h5 class="mb-3">مرحبًا، <span class="text-primary">أحمد</span></h5>
+            <ul class="list-unstyled">
+              <li class="mb-2"><a href="#" class="text-dark fw-bold"><i class="fa fa-user ms-2 text-primary"></i>البيانات الشخصية</a></li>
+              <li class="mb-2"><a href="#" class="text-dark fw-bold"><i class="fa fa-list ms-2 text-primary"></i>طلباتي</a></li>
+              <li class="mb-2"><a href="#" class="text-dark fw-bold"><i class="fa fa-lock ms-2 text-primary"></i>تغيير كلمة المرور</a></li>
+              <li><a href="#" class="text-danger fw-bold"><i class="fa fa-sign-out-alt ms-2"></i>تسجيل الخروج</a></li>
+            </ul>
+          </div>
         </div>
-        <div class="col-sm-12 col-md-6  d-md-block d-sm-none">
-          <img src="images/login.png" class="w-100 h-100" alt="Login">
+
+
+        <div class="col-md-9">
+          <div class="border rounded p-4 mb-4">
+            <h5 class="mb-3 fw-bold text-primary">البيانات الشخصية</h5>
+            <p><strong>الاسم:</strong> أحمد محمد</p>
+            <p><strong>البريد الإلكتروني:</strong> ahmed@email.com</p>
+            <p><strong>رقم الجوال:</strong> 01001234567</p>
+            <p><strong>العنوان:</strong> شارع النيل، الجيزة</p>
+            <p><strong>تاريخ التسجيل:</strong> 2024-12-01</p>
+            <button class="btn btn-outline-primary mt-3">تعديل البيانات</button>
+          </div>
+
+
+          <div class="border rounded p-4">
+            <h5 class="mb-3 fw-bold text-primary">طلباتي السابقة</h5>
+            <div class="table-responsive">
+              <table class="table table-bordered text-center align-middle">
+                <thead class="table-light">
+                  <tr>
+                    <th>#</th>
+                    <th>الخدمة</th>
+                    <th>التاريخ</th>
+                    <th>الحالة</th>
+                    <th>الإجراء</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>254</td>
+                    <td>تنظيف شقة 170م</td>
+                    <td>2025-06-02</td>
+                    <td><span class="badge bg-success">مكتمل</span></td>
+                    <td><a href="#" class="btn btn-sm btn-outline-primary">عرض</a></td>
+                  </tr>
+                  <tr>
+                    <td>255</td>
+                    <td>نقل أثاث</td>
+                    <td>2025-06-03</td>
+                    <td><span class="badge bg-warning text-dark">قيد التنفيذ</span></td>
+                    <td><a href="#" class="btn btn-sm btn-outline-primary">عرض</a></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
